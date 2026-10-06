@@ -1,5 +1,5 @@
 from fastapi import FastAPI 
-from endpoints.sns.social_network_simulator import sns
+from endpoints.sns.user_actions import sns
 
 import uvicorn 
 import dotenv
